@@ -1,4 +1,5 @@
 import Search from "./Search";
+import CardInfo from "./Card-Info";
 const Home = () => {
     return(
         <div>
@@ -6,6 +7,7 @@ const Home = () => {
                 Home
             </h1>
             <Search />
+            <CardInfo/>
         </div>
     )
 }
