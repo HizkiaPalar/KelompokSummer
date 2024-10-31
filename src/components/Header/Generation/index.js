@@ -6,8 +6,8 @@ import Gen4 from './gen4';
 const Generation = () => {
     return (
         <div>
-            <h1>Generation</h1>
-            <Gen1/>
+            <h1>Generation </h1>
+            <Gen1 />
             <Gen2/>
             <Gen3/>
             <Gen4/>
