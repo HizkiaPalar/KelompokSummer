@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Header text1="By Hizkia" />
       <Footer text2="By Hizkia" />
-      <Home/>
+      <Home text3="By Nisa"/>
     </div>
   );
 }

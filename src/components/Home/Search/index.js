@@ -1,8 +1,8 @@
-const Search = () => {
+const Search = (props) => {
     return(
         <div>
             <h2>
-                Search
+                Search {props.text4}
             </h2>
         </div>
     )
