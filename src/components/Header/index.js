@@ -5,7 +5,7 @@ const index = (props) => {
   return (
     <div>
       <h1>Header {props.text1}</h1>
-      <Generation />
+      <Generation name2="By Afirst"/>
       <Logo name="By Hizkia" />
     </div>
   );
