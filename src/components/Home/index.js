@@ -7,7 +7,7 @@ const Home = (props) => {
                 Home {props.text3}
             </h1>
             <Search text4="By Nisa" />
-            <CardInfo/>
+            <CardInfo text5="By Nathan"/>
         </div>
     )
 }
