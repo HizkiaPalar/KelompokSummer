@@ -1,12 +1,12 @@
 import React from "react";
 import Logo from "./Logo";
 import Generation from "./Generation";
-const index = () => {
+const index = (props) => {
   return (
     <div>
-      <h1>Header</h1>
+      <h1>Header {props.text1}</h1>
       <Generation />
-      <Logo />
+      <Logo name="By Hizkia" />
     </div>
   );
 };
