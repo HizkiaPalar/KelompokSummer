@@ -1,7 +1,7 @@
-const Evolution = () => {
+const Evolution = (props) => {
   return (
     <div>
-      <h3>Evolution</h3>
+      <h3>Evolution {props.text6}</h3>
     </div>
   );
 };
