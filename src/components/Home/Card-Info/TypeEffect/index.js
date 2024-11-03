@@ -1,7 +1,7 @@
-const TypeEffect = () => {
+const TypeEffect = (props) => {
     return (
       <div>
-        <h3>TypeEffect</h3>
+        <h3>TypeEffect {props.text7}</h3>
       </div>
     );
   };
