@@ -1,6 +1,6 @@
-const gen2 =() => {
+const gen2 =(props) => {
     return (
-        <h2>Gen 2</h2>
+        <h2>Gen 2 {props.name4}</h2>
     )
 }
 export default gen2;

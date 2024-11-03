@@ -5,9 +5,9 @@ import Home from "./components/Home";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Footer />
-      <Home/>
+      <Header text1="By Hizkia" />
+      <Footer text2="By Hizkia" />
+      <Home text3="By Nisa"/>
     </div>
   );
 }
